@@ -1,6 +1,6 @@
 import './App.css';
 
-const app = () => {
+export const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -12,4 +12,3 @@ const app = () => {
   );
 };
 
-export { app as App };
